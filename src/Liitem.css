@@ -1,0 +1,35 @@
+.liWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.span_wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+    width: 80%;
+    overflow: hidden;
+}
+
+.span_wrapper > input {
+    cursor: pointer;
+}
+
+.span_wrapper > p {
+    padding-left: 3%;
+}
+
+.deleteBtn {
+    border: none;
+    outline: none;
+}
+.deleteBtn > i {
+    color: red;
+    font-size: 18px;
+}
+
+.liWrapper > button {
+    cursor: pointer;
+}
